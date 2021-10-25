@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey-Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="main">
+        <header>
+            <h1 id="title">Survey-Form</h1>        
+            <p id="description">Your complete satisfaction is of primary importance to us. If you ever have questions or comments about your Toyota vehicle, we suggest you to fill this form so your concerns can be addressed as quickly and efficiently as possible.</p>
+        </header>
+                    <!--Form starts here-->
+        <form action="" id="survey-form">
+                    <!--Name input-->
+                    <div class="form-control">
+                        <label for="name" id="name-label">
+                            Name:
+                        </label>
+                        <input type="text" id="name"  placeholder="Enter your Name" required>
+                    </div>
+
+                    <!--Email input-->
+                    <div class="form-control">
+                        <label for="email" id="email-label">
+                            Email:
+                        </label>
+                        <input type="email" id="email" placeholder="Enter your email" required>
+                    </div>
+
+                    <!--Number input-->
+                    <div class="form-control">
+                        <label for="number" id="number-label">
+                        Rate your Experience:
+                        </label>
+                        <input type="number" id="number" placeholder="0-5" min="0" max="5"></div>
+
+                    <!--Dropdown menu-->
+                    <div class="form-control">
+                        <label for="Models">
+                            Field which needs improvement:
+                        </label>
+                        <select name="Models" id="dropdown" >
+                            <option value="Car-buying-process">Car-buying-process</option>
+                            <option value="Hospitality">Hospitality</option>
+                            <option value="Service">Service</option>
+                            <option value="Cleanliness">Cleanliness</option>
+                            <option value="All is good" selected>All is good</option>
+                        </select>
+                    </div>
+                    
+                    <!--Radio buttons-->
+                    <div class="form-control">
+                        <p>Would you recommend a Toyota car to your Friend?</p>
+                         <label for="recommendation">
+                           <input type="radio" name="recommendation" value="Yes">Yes
+                         </label>
+                         <label for="recommendation">
+                           <input type="radio" name="recommendation" value="No">No
+                         </label>
+                    </div>
+                    
+                    <!--Checkbox-->
+                    <div class="form-control">
+                        <p>Are you satisfied with your Car?</p>
+                         <label for="satisfaction">
+                           <input type="checkbox" value="Yes" name="satisfaction" id="">Yes
+                         </label>
+                         <label for="satisfaction">
+                           <input type="checkbox" value="No" name="satisfaction" id="">No
+                         </label>
+                    </div>
+                    
+                    <!--Comments-->
+                    <div class="form-control">
+                        <p>Any comments or suggestions?</p>
+                        <textarea name="comment" id="comment" cols="30" rows="10"></textarea>
+                    </div>
+                    
+                    <!--Submit Button-->
+                    <button type="submit" value="Submit" id="submit">Submit</button>
+        </form>
+    </div>
+    <script src="script.js"></script>"
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+</html>

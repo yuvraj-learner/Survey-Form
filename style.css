@@ -1,0 +1,61 @@
+body{
+    width: 500px;
+    margin: auto;    
+}
+
+header{
+    text-align: center;
+}
+header #title{
+    text-decoration: underline;
+}
+form{
+    max-width: 500px;
+    margin:50px auto;
+    padding:30px 20px;
+    background-color: #fff;
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+}
+.form-control{
+    text-align: left;
+    margin-bottom: 25px;
+}
+.form-control label{
+    display: block;
+    margin-bottom: 10px;
+}
+.form-control input,.form-control select,
+.form-control textarea {
+            border: 1px solid #777;
+            border-radius: 2px;
+            font-family: inherit;
+            padding: 10px; 
+            width: 95%;
+}
+input[type="radio"],
+input[type="checkbox"] {
+            display: inline-block;
+            width: auto;
+}
+
+#main #survey-form{
+    
+    text-align: left;
+    border-radius: 0;
+    margin-bottom: 25px;
+    
+
+}
+
+#submit{
+    display: block;
+    text-align: center;
+    background-color: grey;
+    padding: 5px 100px 5px 100px;
+    cursor: pointer;
+    margin: 0 auto;
+
+}
+#submit:hover{
+    background-color: goldenrod;
+}
