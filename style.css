@@ -1,5 +1,5 @@
 body{
-    width: 500px;
+    width: 90%;
     margin: auto;    
 }
 
@@ -10,7 +10,7 @@ header #title{
     text-decoration: underline;
 }
 form{
-    max-width: 500px;
+    max-width: 90%;
     margin:50px auto;
     padding:30px 20px;
     background-color: #fff;
